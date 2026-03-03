@@ -2,13 +2,38 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>Portfolio | Aloys Belpaire</title>
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        iframe { width: 100%; height: 100%; border: none; }
+        /* Supprime les marges par défaut du navigateur */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Empêche le double scroll */
+            background-color: #1E1E1E; /* Couleur de fond Figma par défaut */
+        }
+
+        /* L'iframe occupe tout l'espace disponible */
+        iframe {
+            border: none;
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
     </style>
 </head>
 <body>
-    <iframe src="https://www.figma.com/proto/q3PK4kBmYyLjy77yZmVJWQ/Aloys-Belpaire---Lead-Product-Designer?node-id=3176-4356&viewport=506%2C-145%2C0.31&t=ow1SkMDQccdt6Ej0-8&scaling=contain&content-scaling=fixed&starting-point-node-id=3176%3A4356&page-id=641%3A2501&hotspot-hints=0&hide-ui=1&embed_host=share"></iframe>
+
+    <iframe 
+        src="https://www.figma.com/proto/q3PK4kBmYyLjy77yZmVJWQ/Aloys-Belpaire---Lead-Product-Designer?node-id=3176-4356&viewport=506%2C-145%2C0.31&t=ow1SkMDQccdt6Ej0-8&scaling=contain&content-scaling=fixed&starting-point-node-id=3176%3A4356&page-id=641%3A2501&hotspot-hints=0&embed_host=share&hide-ui=1" 
+        allowfullscreen>
+    </iframe>
+
 </body>
 </html>
